@@ -13,6 +13,7 @@ const Profile = () => {
 					<li>Full Name: {userInfo?.name}</li>
 					<li>Email Verified: {userInfo?.email_verified ? "Yes" : "No"}</li>
 					<li>Zone: {userInfo?.zoneinfo}</li>
+					<li>Groups: {userInfo?.groups}</li>
 				</ul>
 			</section>
 		</Container>

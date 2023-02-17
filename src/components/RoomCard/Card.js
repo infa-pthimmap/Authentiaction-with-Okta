@@ -16,13 +16,13 @@ const Card = ({ roomNo, occupantName, rentDueDate, coverImg }) => {
 };
 
 const Wrapper = styled.div`
-	border-radius: 7px;	
+	border-radius: 7px;
 	box-shadow: -2px 7px 8px 3px rgba(204, 204, 204, 0.63);
 	width: 15rem;
-	
+
 
 	& > .bg {
-		background: url(${(props) => props.coverImg}) no-repeat center center/cover;
+		#background: url(${(props) => props.coverImg}) no-repeat center center/cover;
 		height: 10rem;
 	}
 
