@@ -5,6 +5,6 @@ WORKDIR /app
 COPY ./ /app
 
 RUN npm i
-CMD ["npm","run", "build"]
+CMD ["npm","start"]
 
 EXPOSE 3000
