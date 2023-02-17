@@ -1,6 +1,6 @@
 export const oktaConfig = {
-	issuer: `https://${process.env.REACT_APP_OKTA_BASE}`,
-	clientId: process.env.REACT_APP_OKTA_CLIENT,
+	issuer: process.env.OKTA_URL,
+	clientId: process.env.CLIENT_ID,
 	redirectUri: `${window.location.origin}/login/callback`,
 	scopes: ["openid", "profile", "email", "groups"],
 	pkce: true,
